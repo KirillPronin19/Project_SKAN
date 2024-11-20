@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: aqua;
+}
+
+.main_logo {
+    margin-left: 5%;
+}
+
+/* панель навигации (3 ссылки)  */
+/* .navigation_panel_main {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_panel a{
+    text-decoration: none;
+}
+
+.navigation_panel_main li{
+    justify-content: center;
+} */
+
+
+.navigation_panel_main {
+    text-align: center; /* Центрирование всего блока */
+}
+
+.navigation_panel {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding-left: 0; /* Убираем отступ слева */
+    display: flex; /* Делаем список flex-контейнером */
+    justify-content: center; /* Центрируем элементы внутри контейнера */
+    gap: 20px; /* Устанавливаем промежуток между элементами */
+}
+
+.navigation_panel a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: black; /* Цвет текста ссылок */
+}
+
+.navigation_panel li {
+    display: inline-block; /* Размещаем элементы в одну строку */
+}
+
+
+/* мини блок с лимитами по компаниям  */
+.limit_of_companies {
+    padding-left: 1200px;
+    
+}
+
+/* мини блок с панелью управленея учетной записью  */
+.authorization_panel {
+    padding-left: 1500px;
+}
