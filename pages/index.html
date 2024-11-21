@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
     <title>СКАН</title>
 </head>
-<!-- шапка веб приложения  -->
+<!-- шапка веб приложения  для авторизованного пользователя-->
 <header>
     <!-- ссылка-основной логотип -->
     <div class="main_logo">
@@ -24,27 +27,30 @@
     </div>
     <!-- мини блок с лимитами по компаниям  -->
     <div class="limit_of_companies">
-        <!-- делю блок на 2 дива - на 2 сочетания ключ-значение  -->
-        <!-- 1 ключ-значение  -->
-        <div class="used_companies">
-            <h6>Использовано компаний </h6>
-                <p>36</p>
-        </div>
-        <!-- 2 ключ-значение  -->
-        <div class="limit">
-            <h6>Лимит по компаниям</h6>
-                <p>100</p>
-        </div>
+            <p class="used_companies">Использовано компаний </p>
+                <p class="used_companies_key">36</p>
+                    <p class="limit">Лимит по компаниям</p>
+                        <p class="limit_key">100</p>
     </div>
     <!-- мини блок с панелью управленея учетной записью  -->
     <div class="authorization_panel">
-        <p>Алексей А.</p>
+        <p class="user_name">Алексей А.</p>
             <a href="#">Выход</a>
                 <img src="/images/account_logo.png" alt="">
     </div>
 </header>
 
 <body>
-    
+    <!-- основной блок для авторизованного пользователя  -->
+    <div class="main_block_for_autorization_user">
+        <h2>сервис по поиску <br>
+            публикаций <br>
+            о компании <br>
+            по его ИНН</h2>
+                <p>Комплексный анализ публикаций, получение данных <br>в формате PDF на электронную почту.</p>
+                    <button class="get_info">
+                        <a href="#">Запросить данные</a>
+                    </button>
+    </div>
 </body>
 </html>

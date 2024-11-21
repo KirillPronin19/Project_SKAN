@@ -1,41 +1,30 @@
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Fira Sans", sans-serif;
 }
 
 header {
-    height: 100px;
-    background-color: aqua;
+    height: 150px;
 }
 
 .main_logo {
     margin-left: 5%;
+    display: block;
 }
 
 /* панель навигации (3 ссылки)  */
-/* .navigation_panel_main {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation_panel a{
-    text-decoration: none;
-}
-
-.navigation_panel_main li{
-    justify-content: center;
-} */
-
-
 .navigation_panel_main {
-    text-align: center; /* Центрирование всего блока */
+    margin-left: 35%;
+    margin-top: -4%;
 }
 
 .navigation_panel {
     list-style-type: none; /* Убираем маркеры списка */
     padding-left: 0; /* Убираем отступ слева */
     display: flex; /* Делаем список flex-контейнером */
-    justify-content: center; /* Центрируем элементы внутри контейнера */
+    
     gap: 20px; /* Устанавливаем промежуток между элементами */
 }
 
@@ -46,16 +35,128 @@ header {
 
 .navigation_panel li {
     display: inline-block; /* Размещаем элементы в одну строку */
+    font-size: 1vw;
 }
-
 
 /* мини блок с лимитами по компаниям  */
 .limit_of_companies {
-    padding-left: 1200px;
-    
+    display: inline-block;
+
+    border: 1px solid  #eae1e196;
+    border-radius: 10px;
+    background-color: #e9e8e8b7;
+
+    width: 300px;
+    height: 80px;
+
+    margin-left: 55%;
+    margin-top: -15%;
+    padding-left: 2%;
 }
+
+.used_companies {
+    color: rgb(130, 130, 130);
+}
+
+.used_companies_key {
+    margin-left: 70%;
+    margin-top: -15%;
+
+    font-weight: 600;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.limit {
+    margin-top: -7%;
+    color: rgb(130, 130, 130);
+}
+
+.limit_key {
+    margin-left: 70%;
+    margin-top: -15%;
+
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-align: center;
+    color: #8AC540;
+}
+
 
 /* мини блок с панелью управленея учетной записью  */
 .authorization_panel {
-    padding-left: 1500px;
+    margin-left: 1500px;
+    /* border: 1px dashed; */
+    width: 10%;
+    margin-top: -5%;
+}
+
+.authorization_panel p {
+
+}
+
+.authorization_panel a {
+    margin-top: -10%;
+
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+
+}
+
+.authorization_panel img {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -35%;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+}
+
+/* основной блок для авторизованного пользователя  */
+
+.main_block_for_autorization_user {
+    height: 800px;
+    background-image: url(/images/mainblock.png);
+    background-repeat: no-repeat;
+    background-position: 80% -10%;
+    background-size: 35%;
+
+
+}
+
+.image_for_main_block img{
+    /* background-image: url(/images/mainblock.png);
+    background-repeat: no-repeat; */
+
+}
+
+.main_block_for_autorization_user h2 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 105%;
+
+    margin-left: 5%;
+    /* margin-top: -1%; */
+}
+
+.main_block_for_autorization_user p {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.get_info {
+    width: 20%;
+    height: 7%;
+    margin-left: 5%;
+    background-color: rgba(89, 112, 255, 1);
+    border: 1px solid rgba(89, 112, 255, 1);
+}
+
+.get_info a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
 }
