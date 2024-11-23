@@ -160,3 +160,67 @@ header {
     font-size: 1.5vw;
     color: white;
 }
+
+/* слайдер  */
+
+.why_we {
+    height: 1200px;
+}
+
+.why_we h2 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 105%;
+
+    margin-left: 5%;
+}
+
+/* сам слайдер  */
+swiper-container {
+    margin-top: 5%;
+
+    width: 90%;
+    height: 30%;
+    /* background-color: #8AC540; */
+}
+
+swiper-slide {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 250px;
+    width: 50%;
+
+    margin-top: 3%;
+    
+
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.2);
+    
+}
+
+swiper-slide p {
+    margin-left: -10%;
+    padding-right: 3%;
+    margin-top: 15%;
+    font-size: 1vw;
+    display: inline;
+
+}
+
+swiper-slide img {
+    display: inline;
+    /* width: 15%; */
+
+    margin-top: -25%;
+    margin-left: 7%;
+    height: 25%;
+    /* object-fit: cover; */
+}
+
+.big_male {
+    margin-left: 10%;
+}
