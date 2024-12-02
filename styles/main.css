@@ -224,3 +224,317 @@ swiper-slide img {
 .big_male {
     margin-left: 10%;
 }
+
+/* карточки с тарифами */
+
+.tarifs {
+    height: 900px;
+}
+
+.tarifs h2 {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 3vw;
+}
+
+.cards {
+    height: 700px;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+/* Первая карточка */
+.card_one {
+    border: solid 1px #FFB64F;
+    border-radius: 10px;
+
+    width: 25%;
+    height: 80%;
+
+    background-color: #FFB64F;
+}
+
+.header_in_card_one {
+    height: 20%;
+
+    margin-top: -3%;
+}
+
+.header_in_card_one h5 {
+    font-size: 1.8em;
+    margin-left: 5%;
+}
+
+.header_in_card_one p {
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+.body_in_card_one {
+    width: 99%;
+    height: 73%;
+    background-color: white;
+
+    border: solid 1px #FFB64F;
+    border-radius: 10px;
+
+    margin-left: 0.2%;
+    /* margin-top: -5%; */
+}
+
+.body_in_card_one h6 {
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.sale {
+    margin-left: 35%;
+    margin-top: -23%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);
+}
+
+.body_in_card_one p {
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.body_in_card_one ul {
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.body_in_card_one li {
+    text-decoration: none;
+}
+
+.body_in_card_one li::marker {
+    content: '✓'; /* Используем символ галочки */
+    color: green; /* Делаем её зелёной */
+    font-size: 16px; /* Опциональный размер шрифта */
+}
+
+.tarif_button_one {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-left: 5%;
+    margin-top: 5%;
+
+    background-color: rgba(205, 204, 204, 0.55);
+
+    border: 1px solid rgba(205, 204, 204, 0.55);
+    border-radius: 5px;
+}
+
+.tarif_button_one a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* вторая карточка  */
+.card_two {
+    border: solid 1px #7CE3E1;
+    border-radius: 10px;
+
+    width: 25%;
+    height: 80%;
+
+    background-color: #7CE3E1;
+}
+
+.header_in_card_two {
+    height: 20%;
+
+    margin-top: -3%;
+}
+
+.header_in_card_two h5 {
+    font-size: 1.8em;
+    margin-left: 5%;
+}
+
+.header_in_card_two p {
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+.body_in_card_two {
+    width: 99%;
+    height: 73%;
+    background-color: white;
+
+    border: solid 1px #7CE3E1;
+    border-radius: 10px;
+
+    margin-left: 0.2%;
+    /* margin-top: -5%; */
+}
+
+.body_in_card_two h6 {
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.body_in_card_two h5 {
+    margin-left: 50%;
+    /* margin-top: 5%; */
+}
+
+.sale {
+    margin-left: 35%;
+    margin-top: -23%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);
+}
+
+.body_in_card_two p {
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.body_in_card_two ul {
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.body_in_card_two li {
+    text-decoration: none;
+}
+
+.body_in_card_two li::marker {
+    content: '✓'; /* Используем символ галочки */
+    color: green; /* Делаем её зелёной */
+    font-size: 16px; /* Опциональный размер шрифта */
+}
+
+.tarif_button_two {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-left: 5%;
+    margin-top: 5%;
+
+    background-color: rgba(205, 204, 204, 0.55);
+
+    border: 1px solid rgba(205, 204, 204, 0.55);
+    border-radius: 5px;
+}
+
+.tarif_button_two a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+/* Третья карточка  */
+.card_three {
+    border: solid 1px #000000;
+    border-radius: 10px;
+
+    width: 25%;
+    height: 80%;
+
+    background-color: #000000;
+}
+
+.header_in_card_three {
+    height: 20%;
+
+    margin-top: -3%;
+}
+
+.header_in_card_three h5 {
+    font-size: 1.8em;
+    margin-left: 5%;
+    color: white;
+}
+
+.header_in_card_three p {
+    font-size: 1.3em;
+    margin-left: 5%;
+    margin-top: -5%;
+    color: white;
+}
+
+.body_in_card_three {
+    width: 99%;
+    height: 73%;
+    background-color: white;
+
+    border: solid 1px #000000;
+    border-radius: 10px;
+
+    margin-left: 0.2%;
+    /* margin-top: -5%; */
+}
+
+.body_in_card_three h6 {
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.sale {
+    margin-left: 35%;
+    margin-top: -23%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);
+}
+
+.body_in_card_three p {
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.body_in_card_three ul {
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.body_in_card_three li {
+    text-decoration: none;
+}
+
+.body_in_card_three li::marker {
+    content: '✓'; /* Используем символ галочки */
+    color: green; /* Делаем её зелёной */
+    font-size: 16px; /* Опциональный размер шрифта */
+}
+
+.tarif_button_three {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-left: 5%;
+    margin-top: 5%;
+
+    background-color: rgba(205, 204, 204, 0.55);
+
+    border: 1px solid rgba(205, 204, 204, 0.55);
+    border-radius: 5px;
+}
+
+.tarif_button_three a {
+    text-decoration: none;
+    color: #000000;
+}
