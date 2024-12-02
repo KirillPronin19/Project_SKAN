@@ -293,9 +293,18 @@ swiper-slide img {
     margin-left: 5%;
 }
 
-.sale {
+/* .sale {
     margin-left: 35%;
-    margin-top: -23%;
+    margin-top: -27%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);
+} */
+
+.body_in_card_one h5 {
+    margin-left: 35%;
+    margin-top: -25%;
 
     font-size: 1.5em;
     text-decoration: line-through;
@@ -388,18 +397,22 @@ swiper-slide img {
 }
 
 .body_in_card_two h5 {
-    margin-left: 50%;
-    /* margin-top: 5%; */
+    margin-left: 45%;
+    margin-top: -25%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);    
 }
 
-.sale {
+/* .sale {
     margin-left: 35%;
     margin-top: -23%;
 
     font-size: 1.5em;
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.347);
-}
+} */
 
 .body_in_card_two p {
     font-size: 1.1em;
@@ -430,15 +443,15 @@ swiper-slide img {
     margin-left: 5%;
     margin-top: 5%;
 
-    background-color: rgba(205, 204, 204, 0.55);
+    background-color: rgba(89, 112, 255, 1);
 
-    border: 1px solid rgba(205, 204, 204, 0.55);
+    border: 1px solid rgba(89, 112, 255, 1);
     border-radius: 5px;
 }
 
 .tarif_button_two a {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 
 
@@ -490,14 +503,23 @@ swiper-slide img {
     margin-left: 5%;
 }
 
-.sale {
+.body_in_card_three h5 {
+    margin-left: 35%;
+    margin-top: -26%;
+
+    font-size: 1.5em;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.347);
+}
+
+/* .sale {
     margin-left: 35%;
     margin-top: -23%;
 
     font-size: 1.5em;
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.347);
-}
+} */
 
 .body_in_card_three p {
     font-size: 1.1em;
@@ -528,13 +550,13 @@ swiper-slide img {
     margin-left: 5%;
     margin-top: 5%;
 
-    background-color: rgba(205, 204, 204, 0.55);
-
-    border: 1px solid rgba(205, 204, 204, 0.55);
+    border: 1px solid rgba(89, 112, 255, 1);
     border-radius: 5px;
+
+    background-color: rgba(89, 112, 255, 1);
 }
 
 .tarif_button_three a {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
