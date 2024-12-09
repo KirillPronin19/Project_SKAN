@@ -560,3 +560,22 @@ swiper-slide img {
     text-decoration: none;
     color: white;
 }
+
+footer {
+    height: 200px;
+    background-color: #029491;
+    margin-top: 10%;
+    display: flex;
+}
+
+.footer_logo {
+    margin-left: 5%;
+    display: block;
+    margin-top: 2%;
+}
+
+footer p {
+    margin-left: 70%;
+    color: white;
+    margin-top: 3%;
+}
