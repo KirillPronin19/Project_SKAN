@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>СКАН</title>
+</head>
+<!-- шапка веб приложения  для авторизованного пользователя-->
+<header>
+    <!-- ссылка-основной логотип -->
+    <div class="main_logo">
+        <a href="#">
+            <img src="/images/logo.png" alt="">
+        </a>
+    </div>
+    <!-- навигационная панель из 3 пунктов (3 ссылки)-->
+    <div class="navigation_panel_main">
+        <ul class="navigation_panel">
+            <a href=""><li>Главная</li></a>
+            <a href=""><li>Тарифы</li></a>
+            <a href=""><li>FAQ</li></a>
+        </ul>
+    </div>
+    <!-- блок с регистрацией на сайте  -->
+    <div class="reg_form">
+            <div class="enter_button">
+                <input type="text" class="transparent-input" placeholder="Зарегистрироваться">
+                    <a href="#" class="enter">Войти</a>
+            </div>
+
+    </div>
+</header>
+
+<body>
+    <!-- основной блок для авторизованного пользователя  -->
+    <div class="main_block_for_autorization_user">
+        <h2>сервис по поиску <br>
+            публикаций <br>
+            о компании <br>
+            по его ИНН</h2>
+                <p>Комплексный анализ публикаций, получение данных <br>в формате PDF на электронную почту.</p>
+                    <button class="get_info">
+                        <a href="#">Запросить данные</a>
+                    </button>
+    </div>
+
+    <!-- второй блок с слайдером  -->
+<div class="why_we">
+    <h2 class="why_wy_parag">Почему именно мы</h2>
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+        space-between="30" free-mode="true">
+            <swiper-slide>
+                <img src="/images/free-icon-font-clock-three.png" alt="">
+                    <p>Высокая и оперативная скорость обработки заявки</p>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/images/free-icon-font-search.png" alt="">
+                    <p>Огромная комплексная база данных, обеспечивающая объективный ответ на запрос</p>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/images/free-icon-font-shield.png" alt="">
+                    <p>Защита конфеденциальных сведений, не подлежащих разглашению по федеральному законодательству</p>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="/images/free-icon-font-clock-three.png" alt="">
+                    <p>Высокая и оперативная скорость обработки заявки</p>
+            </swiper-slide>
+        </swiper-container>
+
+        <img src="/images/male.png" alt="" class="big_male">
+</div>
+
+<!-- карточки с тарифами  -->
+
+<div class="tarifs">
+    <h2>НАШИ ТАРИФЫ</h2>
+    <div class="cards">
+
+        <!-- карточка 1  -->
+
+        <div class="card_one">
+            <div class="header_in_card_one">
+                <h5>Beginner</h5>
+                    <p>Для небольшого исследования</p>
+            </div>
+                <div class="body_in_card_one">
+                    <h6>799 ₽</h6>
+                        <h5 class="sale">1 200 ₽</h5>
+                            <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
+                                <ul>
+                                    <li>Безлимитная история запросов</li>
+                                    <li>Безопасная сделка</li>
+                                    <li>Поддержка 24/7</li>
+                                </ul>
+                                    <button class="tarif_button_one">
+                                        <a href="#">Перейти в личный кабинет</a>
+                                    </button>
+                </div>
+        </div>
+
+        <!-- карточка 2  -->
+
+        <div class="card_two">
+            <div class="header_in_card_two">
+                <h5>Pro</h5>
+                    <p>Для HR и фрилансеров</p>
+            </div>
+                <div class="body_in_card_two">
+                    <h6>1 299 ₽ ₽</h6>
+                        <h5 class="sale">2 600 ₽</h5>
+                            <p>или 279 ₽/мес. при рассрочке на 24 мес.</p>
+                                <ul>
+                                    <li>Все пункты тарифа Beginner</li>
+                                    <li>Экспорт истории</li>
+                                    <li>Рекомендации по приоритетам</li>
+                                </ul>
+                                    <button class="tarif_button_two">
+                                        <a href="#">Подробнее</a>
+                                    </button>
+                </div>
+        </div>
+
+        <!-- каротчока 3  -->
+
+        <div class="card_three">
+            <div class="header_in_card_three">
+                <h5>Beginner</h5>
+                    <p>Для небольшого исследования</p>
+            </div>
+                <div class="body_in_card_three">
+                    <h6>799 ₽</h6>
+                        <h5 class="sale">1 200 ₽</h5>
+                            <p>или 150 ₽/мес. при рассрочке на 24 мес.</p>
+                                <ul>
+                                    <li>Безлимитная история запросов</li>
+                                    <li>Безопасная сделка</li>
+                                    <li>Поддержка 24/7</li>
+                                </ul>
+                                    <button class="tarif_button_three">
+                                        <a href="#">Перейти в личный кабинет</a>
+                                    </button>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+<footer>
+    <div class="footer_logo">
+        <a href="#">
+            <img src="/images/logoforfooter.png" alt="">
+        </a>
+    </div>
+
+    <p class="footer_parag">
+        г. Москва, Цветной б-р, 40
+        <br>+7 495 771 21 11
+        <br>info@skan.ru
+        <br><br>Copyright. 2024</p>
+
+
+</footer>
+
+</html>

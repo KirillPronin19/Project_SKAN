@@ -579,3 +579,56 @@ footer p {
     color: white;
     margin-top: 3%;
 }
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @ Cтили для шапки, в которой нужно зарегаться "  */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.reg_form {
+    
+
+}
+/* стили для инпута  */
+.enter_button input {
+    background-color: transparent; /* Прозрачность фона */
+    border: none;                  /* Убираем рамку */
+    color: gray;                   /* Цвет текста */
+    font-size: 16px;               /* Размер шрифта */
+    padding: 10px;                 /* Внутренний отступ */
+    width: 200px;                  /* Ширина поля ввода */
+
+    margin-left: 70%;
+    margin-top: -2%;
+
+    display: block;
+}
+/* стили для ссылки в виде кнопки  */
+.enter_button {
+    margin-left: 60%;
+    height: 25px;
+    width: 400px;
+
+    display: flex;
+
+    margin-top: -1.5%;
+}
+
+.reg_form a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #7CE3E1;
+
+    border: 1px solid #7CE3E1;
+    border-radius: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: -1.5%;
+    /* margin-left: 82%; */
+
+    display: block;
+}
