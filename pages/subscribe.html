@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>СКАН</title>
+</head>
+<!-- шапка веб приложения  для авторизованного пользователя-->
+<header>
+    <!-- ссылка-основной логотип -->
+    <div class="main_logo">
+        <a href="#">
+            <img src="/images/logo.png" alt="">
+        </a>
+    </div>
+    <!-- навигационная панель из 3 пунктов (3 ссылки)-->
+    <div class="navigation_panel_main">
+        <ul class="navigation_panel">
+            <a href=""><li>Главная</li></a>
+            <a href=""><li>Тарифы</li></a>
+            <a href=""><li>FAQ</li></a>
+        </ul>
+    </div>
+    <!-- блок с регистрацией на сайте  -->
+    <div class="reg_form">
+            <div class="enter_button">
+                <input type="text" class="transparent-input" placeholder="Зарегистрироваться">
+                    <a href="#" class="enter">Войти</a>
+            </div>
+
+    </div>
+</header>
+
+<body>
+    <!-- основной блок для авторизованного пользователя  -->
+    <div class="main_block_sub">
+        <h2>Для оформления подписки <br>
+            на тариф, необходимо <br>
+            авторизоваться.</h2>
+                <img src="/images/key.png" alt="">
+                    <div class="placeholder">
+                        <form action="/login" method="post">
+                            <p class="vhod">Войти</p>
+                            <p class="autor">Зарегистрироваться</p>
+                                <label for="username">Логин или Номер Телефона:</label>
+                                <input class="interform" type="text" id="username" name="username" placeholder="Введите логин или номер телефона" required>
+                        
+                                <label for="password">Пароль:</label>
+                                <input class="interform" type="password" id="password" name="password" placeholder="Введите пароль" required>
+                        
+                                <button type="submit">Войти</button>
+                                    <div class="mini_buttons">
+                                        <!-- google  -->
+                                        <a href="" class="mini_logo">
+                                            <img src="/images/free-icon-google-symbol-2875404.png" alt="">
+                                        </a>
+                                        <!-- facebook -->
+                                        <a href="" class="mini_logo">
+                                            <img src="/images/free-icon-facebook-733547.png" alt="">
+                                        </a>
+                                        <!-- yandex -->
+                                        <a href="" class="mini_logo">
+                                            <img src="/images/free-icon-yandex-6124986.png" alt="">
+                                        </a>
+                                    </div>
+                            </form>
+                    </div>
+    </div>
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+<footer>
+    <div class="footer_logo">
+        <a href="#">
+            <img src="/images/logoforfooter.png" alt="">
+        </a>
+    </div>
+
+    <p class="footer_parag">
+        г. Москва, Цветной б-р, 40
+        <br>+7 495 771 21 11
+        <br>info@skan.ru
+        <br><br>Copyright. 2024</p>
+
+
+</footer>
+
+</html>

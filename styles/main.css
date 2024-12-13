@@ -667,3 +667,129 @@ footer p {
     50%  { top: 10px;  opacity: .2; }
     100% { top: 0;     opacity: 1; }
 }
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/* @ Стили для блока авториции с подпиской @*/
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.main_block_sub {
+    
+}
+
+.main_block_sub h2 {
+    font-size: 6vh;
+    text-transform: uppercase;
+    margin-left: 3%;
+    display: block;
+}
+
+.main_block_sub img {
+    width: 320px;
+    height: 342px;
+
+    margin-left: 10%;
+}
+
+/* плэйсхолдеры */
+
+form {
+    width: 480px;
+    height: 578px;
+    margin-top: -30%;
+    margin-left: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    /* display: block; */
+    /* margin-bottom: 10px; */
+    color: #9e9e9e;
+}
+
+.interform[type="text"],
+.interform[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    /* margin-top: 10%; */
+}
+
+button {
+    background-color: #5970FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20%;
+
+    margin-top: 10%;
+}
+
+button:hover {
+    background-color: #798bff;
+}
+
+.vhod {
+    margin-left: 3%;
+    font-size: 2vh;
+
+    color: #029491;
+    text-decoration: underline;
+
+    cursor: pointer;
+
+}
+
+.autor {
+    margin-left: 55%;
+    margin-top: -8%;
+    margin-bottom: 10%;
+
+    font-size: 2vh;
+
+    color: #9e9e9e;
+    text-decoration: underline;
+
+    cursor: pointer;
+
+}
+
+/* 3 кнопки-логитипа  */
+
+.mini_logo {
+    width: 100%;
+}
+
+.mini_logo img {
+    height: 30px;
+    width: 30px;
+
+    
+
+    border: 1px solid #5970FF;
+    border-radius: 10px;
+
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+    margin-left: 8%;
+}
+
+.mini_logo {
+    
+}
