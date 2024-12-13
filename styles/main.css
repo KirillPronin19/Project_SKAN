@@ -793,3 +793,7 @@ button:hover {
 .mini_logo {
     
 }
+
+a {
+    text-decoration: none;
+}
